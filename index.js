@@ -1,7 +1,7 @@
 module.exports = [{
   func: require('./src/link'),
-  description: 'Links all native dependencies',
-  name: 'link [packageName]',
+  description: 'Links all native dependencies. Optionally skip (-s , --skip) for a platform',
+  name: 'linkp [packageName]',
   options: [{
     flags: '-s, --skip [platform]',
     description: 'Skip linking for platform (android or ios)',
